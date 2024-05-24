@@ -1,0 +1,63 @@
+[versions]
+accompanist = "0.35.1-alpha"
+android = "8.4.1"
+androidx-activity-compose = "1.9.0"
+androidx-compose = "1.7.0-beta01"
+androidx-compose-compiler = "1.5.14"
+androidx-core-splashscreen = "1.0.1"
+androidx-datastore = "1.1.1"
+androidx-hilt-navigation-compose = "1.2.0"
+androidx-navigation-compose = "2.8.0-beta01"
+androidx-paging = "3.3.0"
+androidx-room = "2.6.1"
+hilt = "2.51.1"
+jwt = "2.0.2"
+kotlin = "1.9.24"
+kotlinx-serialization-json = "1.6.3"
+ksp = "1.9.24-1.0.20"
+okhttp = "4.12.0"
+retrofit = "2.11.0"
+
+[libraries]
+accompanist-placeholder = { group = "com.google.accompanist", name = "accompanist-placeholder", version.ref = "accompanist" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity-compose" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "androidx-compose" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "androidx-compose" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidx-core-splashscreen" }
+androidx-datastore = { group = "androidx.datastore", name = "datastore", version.ref = "androidx-datastore" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidx-hilt-navigation-compose" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidx-navigation-compose" }
+androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version.ref = "androidx-paging" }
+androidx-paging-runtime = { group = "androidx.paging", name = "paging-runtime", version.ref = "androidx-paging" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "androidx-room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "androidx-room" }
+androidx-room-paging = { group = "androidx.room", name = "room-paging", version.ref = "androidx-room" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+jwt-android = { group = "com.auth0.android", name = "jwtdecode", version.ref = "jwt" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+okhttp-core = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter-kotlinx-serialization = { group = "com.squareup.retrofit2", name = "converter-kotlinx-serialization", version.ref = "retrofit" }
+# build-logic
+android-gradle-plugin = { group = "com.android.tools.build", name = "gradle", version.ref = "android" }
+ksp-gradle-plugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+room-gradle-plugin = { group = "androidx.room", name = "room-gradle-plugin", version.ref = "androidx-room" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android" }
+android-library = { id = "com.android.library", version.ref = "android" }
+androidx-room = { id = "androidx.room", version.ref = "androidx-room" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+# project
+zhixuelite-android-application = { id = "zhixuelite.android.application", version = "unspecified" }
+zhixuelite-android-compose = { id = "zhixuelite.android.compose", version = "unspecified" }
+zhixuelite-android-feature = { id = "zhixuelite.android.feature", version = "unspecified" }
+zhixuelite-android-hilt = { id = "zhixuelite.android.hilt", version = "unspecified" }
+zhixuelite-android-library = { id = "zhixuelite.android.library", version = "unspecified" }
+zhixuelite-android-room = { id = "zhixuelite.android.room", version = "unspecified" }
+zhixuelite-jvm-library = { id = "zhixuelite.jvm.library", version = "unspecified" }
