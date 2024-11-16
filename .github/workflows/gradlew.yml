@@ -47,5 +47,5 @@ jobs:
         if: success()
         with:
           name: zhixuelite
-          path: build/libs
+          path: build
           if-no-files-found: error
